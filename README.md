@@ -1,6 +1,6 @@
 Author: Nakis Panagiotis<br />
-Email : pnakis@hotmail.com; gst1607@teiath.gr<br />
-Date : June 2017<br />
+Email: pnakis@hotmail.com; gst1607@teiath.gr<br />
+Date: 2014<br />
 
 LICENSE: This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
@@ -14,4 +14,8 @@ INSTALLATION:
 4) Select ortho_fcn folder path (see step one) e.g C:\Programs\MATLAB\ortho_fcn
 5) Save
 6) Close
+
+
+Usage:
+
 
