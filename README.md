@@ -16,9 +16,9 @@ INSTALLATION:
 6) Close
 
 Data types:
-Image (.tif, .jpg, .png, .bmp)
-DTM (.txt as TIN {X Y Z} or Grid format)
-Intrinsic and exterior orientations as a .txt file (e.g. given in the Data folder)
+Image (.tif, .jpg, .png, .bmp)<br />
+DTM (.txt as TIN {X Y Z} or Grid format)<br />
+Intrinsic and exterior orientations as a .txt file (e.g. given in the Data folder)<br />
 
 Usage:
 1) Enter "ortho" in the console without quotation marks
@@ -30,6 +30,11 @@ Usage:
 5) Load the DTM .txt file (DTM -> Load DTM
 5a) If the dtm.txt file is in a grid format the top left corner and the step of the grid must be given (Y max, X min, DTM D)
 5b) If the dtm.txt file is in a TIN format {X Y Z}, the above are calculated automatically
+6) Select Interpolation method (Nearest Neighbor, Bilinear or Bicubic)
+7) Enter the desired grounder size
+8) Rectify the image pressing the "Orthorectification" button
+
+Examples of the above data structures can be found in the Data folder
 
 
 
