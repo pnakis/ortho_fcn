@@ -15,7 +15,22 @@ INSTALLATION:
 5) Save
 6) Close
 
+Data types:
+Image (.tif, .jpg, .png, .bmp)
+DTM (.txt as TIN {X Y Z} or Grid format)
+Intrinsic and exterior orientations as a .txt file (e.g. given in the Data folder)
 
-Usage: Coming soon...
+Usage:
+1) Enter "ortho" in the console without quotation marks
+2) Load Image (Image -> Load Image)
+3) Load Intrinsic parameters (Camera Orientation -> Load Interior Orientation)
+3a) If the input image is a scanned image, the 6 affine coefficients must be known, or, the fiducial marker coordinates in order for them to be calculated (these parameters are a part of the Intrinsic .txt, e.g. given in the Data folder)
+3b) If the input image is product of a digital camera, the sensor pixel size must be given
+4) Load Exterior Orientation parameters (Camera Orientation -> Load Exterior Orientation)
+5) Load the DTM .txt file (DTM -> Load DTM
+5a) If the dtm.txt file is in a grid format the top left corner and the step of the grid must be given (Y max, X min, DTM D)
+5b) If the dtm.txt file is in a TIN format {X Y Z}, the above are calculated automatically
+
+
 
 
