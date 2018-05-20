@@ -1,0 +1,19 @@
+xo(mm): 0
+yo(mm): 0
+c(mm): 120
+k1: 0
+k2: 0
+a1:
+a2:
+a3:
+a4:
+a5:
+a6:
+xy1:
+xy2:
+xy3:
+xy4:
+ij1:
+ij2:
+ij3:
+ij4:
