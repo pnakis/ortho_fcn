@@ -34,6 +34,8 @@ Usage:
 7) Enter the desired grounder size
 8) Rectify the image pressing the "Orthorectification" button
 
+Intrinsic and Exterior parameters can be also be given manualy from the Manual Input menu
+
 Examples of the above data structures can be found in the Data folder
 
 
