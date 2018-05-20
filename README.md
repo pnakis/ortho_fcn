@@ -16,6 +16,6 @@ INSTALLATION:
 6) Close
 
 
-Usage:
+Usage: Coming soon...
 
 
