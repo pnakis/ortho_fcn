@@ -24,12 +24,12 @@ Usage:
 1) Enter "ortho" in the console without quotation marks
 2) Load Image (Image -> Load Image)
 3) Load Intrinsic parameters (Camera Orientation -> Load Interior Orientation)<br />
-3a) If the input image is a scanned image, the 6 affine coefficients must be known, or, the fiducial marker coordinates in order for them to be calculated (these parameters are a part of the Intrinsic .txt, e.g. given in the Data folder)<br />
-3b) If the input image is product of a digital camera, the sensor pixel size must be given<br />
+3a. If the input image is a scanned image, the 6 affine coefficients must be known, or, the fiducial marker coordinates in order for them to be calculated (these parameters are a part of the Intrinsic .txt, e.g. given in the Data folder)<br />
+3b. If the input image is product of a digital camera, the sensor pixel size must be given<br />
 4) Load Exterior Orientation parameters (Camera Orientation -> Load Exterior Orientation)
 5) Load the DTM .txt file (DTM -> Load DTM)<br />
-5a) If the dtm.txt file is in a grid format the top left corner and the step of the grid must be given (Y max, X min, DTM D)<br />
-5b) If the dtm.txt file is in a TIN format {X Y Z}, the above are calculated automatically<br />
+5a. If the dtm.txt file is in a grid format the top left corner and the step of the grid must be given (Y max, X min, DTM D)<br />
+5b. If the dtm.txt file is in a TIN format {X Y Z}, the above are calculated automatically<br />
 6) Select Interpolation method (Nearest Neighbor, Bilinear or Bicubic)
 7) Enter the desired grounder size
 8) Rectify the image pressing the "Orthorectification" button
